@@ -6,4 +6,4 @@ To compile the project, don't forget to add these external jar files :
 - json-20190722.jar
 
 
-The GUI displays 4 barchart that you can change with their comboboxes.
+The GUI displays 4 barcharts that you can change with their comboboxes.

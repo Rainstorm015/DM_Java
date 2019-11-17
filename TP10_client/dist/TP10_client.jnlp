@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="TP10_client.jar" size="7290" download="eager" />
+    <jar href="TP10_client.jar" size="7301" download="eager" />
     <jar href="lib\jdom2-2.0.6.jar" size="304924" download="eager" />
     <jar href="lib\json-20190722.jar" size="65003" download="eager" />
   </resources>

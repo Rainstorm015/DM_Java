@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TP10_client.jnlp">
+  <information>
+    <title>TP10_client</title>
+    <vendor>legra</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TP10_client.jar" size="7290" download="eager" />
+    <jar href="lib\jdom2-2.0.6.jar" size="304924" download="eager" />
+    <jar href="lib\json-20190722.jar" size="65003" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="tp10_client.TP10_client"  name="TP10_client" />
+  <update check="always"/>
+</jnlp>

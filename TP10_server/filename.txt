@@ -1,0 +1,9 @@
+6A
+HISTOIREGEO
+nom0 prenom0 10.0
+nom0 prenom0 11.0
+nom0 prenom0 9.5
+FRANCAIS
+NomA PrenomA 11.0
+NomB PrenomB 12.0
+NomC PrenomC 10.5

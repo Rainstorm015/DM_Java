@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="916.0" prefWidth="1272.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="tp10_client.FXMLDocumentController">
+  <children>
+    <BarChart fx:id="barchart1" layoutX="44.0" layoutY="41.0" prefWidth="538.0">
+      <xAxis>
+        <CategoryAxis side="BOTTOM" />
+      </xAxis>
+      <yAxis>
+        <NumberAxis side="LEFT" />
+      </yAxis>
+    </BarChart>
+    <ComboBox fx:id="combo1" layoutX="273.0" layoutY="13.0" onAction="#handleComboGraph1Action">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="combo2" layoutX="138.0" layoutY="13.0" onAction="#handleComboGraph1Action">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <BarChart fx:id="barchart2" layoutX="647.0" layoutY="41.0" prefWidth="538.0">
+      <xAxis>
+        <CategoryAxis side="BOTTOM" />
+      </xAxis>
+      <yAxis>
+        <NumberAxis side="LEFT" />
+      </yAxis>
+    </BarChart>
+    <BarChart fx:id="barchart3" layoutX="44.0" layoutY="490.0" prefWidth="538.0">
+      <xAxis>
+        <CategoryAxis side="BOTTOM" />
+      </xAxis>
+      <yAxis>
+        <NumberAxis side="LEFT" />
+      </yAxis>
+    </BarChart>
+    <BarChart fx:id="barchart4" layoutX="647.0" layoutY="490.0" prefWidth="538.0">
+      <xAxis>
+        <CategoryAxis side="BOTTOM" />
+      </xAxis>
+      <yAxis>
+        <NumberAxis side="LEFT" />
+      </yAxis>
+    </BarChart>
+    <ComboBox fx:id="combo4" layoutX="874.0" layoutY="13.0" onAction="#handleComboGraph2Action">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="combo3" layoutX="751.0" layoutY="13.0" onAction="#handleComboGraph2Action">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="combo5" layoutX="1135.0" layoutY="13.0" onAction="#handleComboGraph2Action">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="combo7" layoutX="273.0" layoutY="465.0" onAction="#handleComboGraph3Action">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="combo6" layoutX="138.0" layoutY="465.0" onAction="#handleComboGraph3Action">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <ComboBox fx:id="combo8" layoutX="751.0" layoutY="465.0" onAction="#handleComboGraph4Action">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <Label layoutX="78.0" layoutY="16.0" text="Niveau" />
+    <Label layoutX="212.0" layoutY="16.0" text="Matiere" />
+    <Label layoutX="697.0" layoutY="16.0" text="Niveau" />
+    <Label layoutX="816.0" layoutY="16.0" text="Matiere" />
+    <Label layoutX="78.0" layoutY="468.0" text="Niveau" />
+    <Label layoutX="212.0" layoutY="468.0" text="Matiere" />
+    <Label layoutX="697.0" layoutY="468.0" text="Niveau" />
+    <Label layoutX="1075.0" layoutY="16.0" text="Epreuve" />
+    <Button fx:id="button" layoutX="582.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleComboGraph5Action" text="Importer" />
+  </children>
+</AnchorPane>

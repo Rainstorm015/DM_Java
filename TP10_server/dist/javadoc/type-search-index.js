@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"tp10_server","l":"Classe"},{"p":"tp10_server","l":"College"},{"p":"tp10_server","l":"Eleve"},{"p":"tp10_server","l":"Matiere"},{"p":"tp10_server","l":"Note"},{"p":"tp10_server","l":"TP10_server"}]
